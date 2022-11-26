@@ -23,14 +23,14 @@ p {
 .container {
     background-color: var(--white);
     border-radius: 20px;
-    height: 67vh;
+    height: 70vh;
     left: 50%;
     padding: 20px;
     position: absolute;
     text-align: center;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 25vw;
+    width: 24vw;
 }
 
 .qr img {
@@ -73,7 +73,7 @@ p {
 }
 
 /* MEDIA QUERIES for: 375px */
-@media only screen and (max-width: 768px)
+@media only screen and (max-width: 375px)
 {
     .container {
         padding: 20px;
